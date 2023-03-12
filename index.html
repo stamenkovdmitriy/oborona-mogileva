@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оборона Могилева</title>
+    <style>
+        body{
+            background-image: url(img/back.jpg);
+        }
+        header{
+            width: 100%;
+            background-color: rgba(66, 57, 44, 0.7);
+            box-shadow: 1.5em 2em .7em black;
+            top: 0;
+            left: 0%;
+            position: fixed;
+        }
+        img{
+            width: 32vw;
+            box-shadow: 1.5em 2em .7em black;
+        }
+        #onePage{            
+            z-index: 4;
+            position: absolute;
+            top: 14%;
+            left: 30%;
+        }
+        #twoPage{
+            z-index: 3;
+            position: absolute;
+            top: 30%;
+            left: 60%;
+        }
+        #threePage{
+            z-index: 1;
+            position: absolute;
+            top: 35%;
+            left: 5%;
+        }
+        #fourPage{
+            z-index: 2;
+            position: absolute;
+            top: 55%;
+            left: 35%;
+        }
+        img:hover{
+            width: 35vw;
+        }
+        img:active{
+            width: 34vw;
+        }
+        h1{
+            font-size: 1.6em;
+            letter-spacing: .1em;
+            word-spacing: .5em;
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, 
+            Verdana, sans-serif;
+            text-shadow: .3em .3em .3em black;
+        }
+    </style>
+</head>
+<body>
+    <audio src="audio/voennye-pesni-pesnya-iz-kf-oficery.mp3" autoplay loop></audio>
+    <header>
+        <h1>ГЕРОИЧЕСКАЯ ОБОРОНА МОГИЛЕВА</h1>
+    </header>
+    <main>
+        <div id="baseGrid"> 
+            <a href="histori.html">
+              <img id="onePage" src="img/1.png" alt="">   
+            </a>           
+                       
+            <a href="https://www.mgtk.mogilev.by/BP/BuinichPole.html">
+                <img id="twoPage" src="img/2.png" alt="">
+            </a>                        
+            <a href="simonov.html">
+                <img id="threePage" src="img/3.png" alt="">
+            </a>           
+
+            <a href="video.html">
+                <img id="fourPage" src="img/4.png" alt="">
+            </a>               
+        </div>
+    </main>
+</body>
+</html>
